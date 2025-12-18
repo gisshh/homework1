@@ -39,8 +39,6 @@ sudo apt-get install -y python3 python3-pip
 pip3 install snakemake
 ```
 #### Запустите workflow
-``` snakemake --cores 1
-```
+``` snakemake --cores 1 ```
 ## Проверьте результат
-``` cat results/final_message.txt
-```
+``` cat results/final_message.txt```
