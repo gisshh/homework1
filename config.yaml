@@ -1,0 +1,3 @@
+# Конфигурация для workflow
+sample: "test_sample"
+output_dir: "results"
