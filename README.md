@@ -6,7 +6,7 @@
 - Snakemake
 - PuLP < 2.8
 
-##### Получите папку проекта:
+#### Получите папку проекта:
 ##### Способ 1: Клонировать через Git (рекомендуется)
 ```
 cd C:\Users\ИмяПользователя
@@ -20,7 +20,7 @@ git clone https://github.com/gisshh/homework1.git
 ##### 2. Нажмите Code → Download ZIP
 ##### 3. Распакуйте в C:\Users\ИмяПользователя\homework1
 
-##### Установите VS Code:
+#### Установите VS Code:
 
 ##### Установите расширение "Dev Containers":
 
@@ -28,20 +28,20 @@ git clone https://github.com/gisshh/homework1.git
 ##### Нажмите на иконку расширений слева
 ##### Найдите и установите "Dev Containers" (автор: Microsoft)
 
-##### Откройте папку в VS Code:
+#### Откройте папку в VS Code:
 
 ##### Запустите VS Code
 ##### Меню File → Open Folder...
 ##### Выберите C:\Users\ИмяПользователя\homework1
 
-##### Перезапуститесь в контейнере:
+#### Перезапуститесь в контейнере:
 
 ##### Нажмите клавишу F1
 ##### Введите Dev Containers: Reopen in Container
 ##### Выберите эту команду
 ##### Дождитесь загрузки (~2-3 минуты)
 
-##### В терминале VS Code выполните:
+#### В терминале VS Code выполните:
 ###### Установите Snakemake
 ```
 python3 -m venv venv
@@ -56,7 +56,9 @@ pip install snakemake "pulp<2.8"
 ```
 snakemake --cores 1
 ```
-## Проверьте результат
+### Проверьте результат
 ```
 cat results/final_message.txt
 ```
+#### Ожидаемый результат:
+##### Homework Snakemake workflow completed successfully!
