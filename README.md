@@ -40,9 +40,7 @@ pip3 install snakemake
 ```
 ###### Запустите workflow
 ``` snakemake --cores 1
-
 ```
 ## Проверьте результат
 ``` cat results/final_message.txt
-
 ```
