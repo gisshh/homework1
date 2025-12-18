@@ -1,5 +1,11 @@
 # homework
 
+## Требования:
+
+- Python 3.9
+- Snakemake
+- PuLP < 2.8
+
 ##### Получите папку проекта:
 ##### Способ 1: Клонировать через Git (рекомендуется)
 ``` cd C:\Users\ИмяПользователя
@@ -34,9 +40,9 @@ git clone https://github.com/gisshh/homework1.git
 
 ##### В терминале VS Code выполните:
 ###### Установите Snakemake
-``` sudo apt-get update
-sudo apt-get install -y python3 python3-pip
-pip3 install snakemake
+``` python3 -m venv venv
+source venv/bin/activate
+pip install snakemake "pulp<2.8"
 ```
 ###### Запустите workflow
 ``` snakemake --cores 1```
