@@ -8,8 +8,10 @@
 
 ##### Получите папку проекта:
 ##### Способ 1: Клонировать через Git (рекомендуется)
-```cd C:\Users\ИмяПользователя```
-```git clone https://github.com/gisshh/homework1.git```
+```cd C:\Users\ИмяПользователя
+```
+```git clone https://github.com/gisshh/homework1.git
+```
 
 ##### Способ 2: Скачать ZIP с GitHub
 ##### 1. Откройте https://github.com/gisshh/homework1
@@ -39,10 +41,15 @@
 
 ##### В терминале VS Code выполните:
 ###### Установите Snakemake
-```python3 -m venv venv```
-```source venv/bin/activate```
-```pip install snakemake "pulp<2.8"```
+```python3 -m venv venv
+```
+```source venv/bin/activate
+```
+```pip install snakemake "pulp<2.8"
+```
 ###### Запустите workflow
-```snakemake --cores 1```
+```snakemake --cores 1
+```
 ## Проверьте результат
-```cat results/final_message.txt```
+```cat results/final_message.txt
+```
