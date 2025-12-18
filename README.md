@@ -11,7 +11,8 @@
 ```
 cd C:\Users\ИмяПользователя
 ```
-```git clone https://github.com/gisshh/homework1.git
+```
+git clone https://github.com/gisshh/homework1.git
 ```
 
 ##### Способ 2: Скачать ZIP с GitHub
@@ -42,15 +43,20 @@ cd C:\Users\ИмяПользователя
 
 ##### В терминале VS Code выполните:
 ###### Установите Snakemake
-```python3 -m venv venv
 ```
-```source venv/bin/activate
+python3 -m venv venv
 ```
-```pip install snakemake "pulp<2.8"
+```
+source venv/bin/activate
+```
+```
+pip install snakemake "pulp<2.8"
 ```
 ###### Запустите workflow
-```snakemake --cores 1
+```
+snakemake --cores 1
 ```
 ## Проверьте результат
-```cat results/final_message.txt
+```
+cat results/final_message.txt
 ```
